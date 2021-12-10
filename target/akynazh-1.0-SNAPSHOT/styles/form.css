@@ -1,0 +1,51 @@
+#form-content #info-content{
+    height: auto;
+}
+#form1, #info1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    background-color: lightgoldenrodyellow;
+
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 10px 10px 10px 20px;
+    margin: 10px;
+    height: auto;
+}
+
+#form-content textarea {
+    margin: 10px 0;
+    width: 95%;
+}
+#form-content input[type=radio] {
+    margin: 10px 0;
+}
+#form-content input[type=text] {
+    width: 95%;
+    padding: 5px 5px;
+    margin: 10px 0;
+}
+#form-content #form-submit {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+#form-content #form-submit:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+#info-content #log-out {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+#info-content #log-out:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}

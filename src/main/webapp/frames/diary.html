@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Diary</title>
+    <link rel="stylesheet" href="../styles/main.css"/>
+    <link rel="stylesheet" href="../styles/diary.css"/>
+</head>
+<body>
+<div id="page" style="background-image: linear-gradient(to right, brown, rosybrown);">
+    <div id="navigator">
+        <ul style="background-image: linear-gradient(to right, brown, rosybrown)">
+            <li>
+                <a href="../index.html" target="_parent">HOME</a>
+            </li>
+            <li>
+                <a href="diary.html" target="_parent" class="active">DIARY</a>
+            </li>
+            <li>
+                <a href="https://akynazh.site" target="_parent">SITE</a>
+            </li>
+            <li>
+                <a href="about.html" target="_parent">ABOUT</a>
+            </li>
+        </ul>
+    </div>
+    <div id="diary-content1">
+        <div id="diary1">
+            <span id="new">New Diaries:</span>
+        </div>
+    </div>
+    <div id="diary-content2">
+        <div id="diary2">
+            <label for="diary" id='diary-label'>Write Something</label><br/>
+            <textarea id='diary' name="diary_text" placeholder="write your diary here"
+                      autocomplete="off"></textarea><br/>
+            <button id="diary-submit">finish</button>
+            <button id="diary-get">get all</button>
+        </div>
+    </div>
+    <div id="diary-content3">
+        <div id="diary3">
+            <span id="old">Old Diaries:</span>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.staticfile.org/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="../scripts/main.js"></script>
+<script type="text/javascript" src="../scripts/submit.js"></script>
+</body>
+</html>
+

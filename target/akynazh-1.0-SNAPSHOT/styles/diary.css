@@ -1,0 +1,64 @@
+/* diary content */
+#diary-content1, #diary-content2, #diary-content3 {
+    height: auto;
+}
+/* 自增长不能有float属性*/
+#diary1, #diary3, #diary2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: rosybrown;
+
+    border-radius: 15px;
+    padding: 10px 10px 10px 20px;
+    margin: 10px;
+}
+
+#diary2 textarea {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+
+    border: saddlebrown solid 2px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+    width: 90%;
+    height: 350px;
+}
+#diary2 #diary-submit {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+
+    border: saddlebrown solid 2px;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    width: 15%;
+}
+#diary2 #diary-submit:hover {
+    background-color: brown;
+    cursor: pointer;
+}
+#diary2 #diary-get {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+
+    border: saddlebrown solid 2px;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    width: 15%;
+}
+#diary2 #diary-get:hover {
+    background-color: brown;
+    cursor: pointer;
+}

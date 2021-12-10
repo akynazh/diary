@@ -1,0 +1,68 @@
+/* general page */
+#page {
+    margin: 0 auto; /*上下外边距为0，左右外边距自动，实现整体居中*/
+    border: gray 10px solid;
+    height: auto;
+    width: 50%;
+    background-image: linear-gradient(to bottom, lightgreen, lightblue);
+}
+#page h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 1px 1px green;
+}
+#page h1:hover {
+    color: #4CAF50;
+}
+
+/*navigator part*/
+#navigator {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+}
+#navigator ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgreen;
+}
+#navigator li {
+    float: left;
+    width: 150px;
+}
+#navigator a {
+    display: block;
+    color: gray;
+    cursor: pointer;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#navigator a:hover:not(.active) {
+    background-color: lightgray;
+}
+#navigator a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+/* about part */
+#about-content {
+    height: auto;
+}
+#about {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    background-color: lightcyan;
+
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 10px 10px 10px 20px;
+    margin: 10px;
+    height: auto;
+    text-align: center;
+}

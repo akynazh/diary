@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Life</title>
+		<link rel="stylesheet" href="styles/main.css" />
+		<link rel="stylesheet" href="styles/form.css">
+	</head>
+	<body>
+		<div id="page">
+			<h1>Enjoy Your Life</h1>
+			<div id="navigator">
+				<ul>
+					<li>
+						<a id="home" href="index.html" target="_parent" class="active">HOME</a>
+					</li>
+					<li>
+						<a href="frames/diary.html" target="_parent">DIARY</a>
+					</li>
+					<li>
+						<a href="https://akynazh.site" target="_parent">SITE</a>
+					</li>
+					<li>
+						<a href="frames/about.html" target="_parent">ABOUT</a>
+					</li>
+				</ul>
+			</div>
+			<div id="info-content">
+				<div id="info1">
+					<span id="info-username">YourName:</span>
+					<br/>
+					<span id="info-description">Description:</span>
+					<button id="log-out">Logout</button>
+				</div>
+			</div>
+			<div id='form-content'>
+				<div id="form1">
+					<form id='myForm' method="post">
+						<h3>Come Into This Clear Space</h3>
+						<label for="uname">Your Name:</label><br/>
+						<input id="uname" type="text" name="username" placeholder="your name..." autocomplete="off"><br/>
+						<label for="pwd">Your Password:</label><br/>
+						<input id="pwd" type="text" name="password" placeholder="your password..." autocomplete="off"><br/>
+						<label for="register">Register</label>
+						<input id='register' type="radio" name="type" value="Register">
+						&nbsp;&nbsp;
+						<label for='login'>Login</label>
+						<input id='login' type="radio" name="type" value="LogIn"><br/>
+						<label for="desc" id='desc-label'>Personal Description:</label><br/>
+						<textarea id='desc' name="description" placeholder="^-^If you are new here, just write something about yourself^-^" autocomplete="off"></textarea><br/>
+					</form>
+					<button id="form-submit">Submit</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://cdn.staticfile.org/jquery/3.4.0/jquery.min.js"></script>
+		<script src="https://cdn.staticfile.org/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+		<script type="text/javascript" src="scripts/main.js"></script>
+		<script type="text/javascript" src="scripts/submit.js"></script>
+	</body>
+</html>
