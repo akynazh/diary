@@ -1,14 +1,10 @@
 # Record-Life
 
-##  简介：
-
-一个入门级Java Web项目，采用servlet和Ajax实现前后端分离，有利于初学者初步理解掌握Web编程以及前后端分离的思想。
-
-## 功能：
+## Usage
 
 写日记，记录生活。
 
-## 使用的主要工具：
+## Tools
 
 - Java 
 - Mysql
