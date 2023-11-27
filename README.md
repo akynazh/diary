@@ -1,10 +1,6 @@
 # Record-Life
 
-## Usage
-
-写日记，记录生活。
-
-## Tools
+## 工具
 
 - Java 
 - Mysql
@@ -23,5 +19,3 @@
 ### 日记页面
 
 ![](2.jpeg)
-
-## 欢迎star学习
